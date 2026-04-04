@@ -58,6 +58,17 @@ python app.py
 Expensetracker.py
 README.md
 ```
+## 📊 Sample Output
+
+1. Add Expense  
+2. View Expenses  
+3. Total Expense  
+4. Exit  
+
+Enter choice: 1  
+Enter expense name: Food  
+Enter amount: 200  
+Expense added successfully!
 
 ---
 
