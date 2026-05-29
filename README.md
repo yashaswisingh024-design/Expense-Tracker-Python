@@ -72,8 +72,5 @@ Expense added successfully!
 
 ---
 
-## 📌 Author
 
-Yashaswi Singh
-B.Tech CSE Student | Python Developer 🚀
 
