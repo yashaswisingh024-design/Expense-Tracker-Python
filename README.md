@@ -1,74 +1,132 @@
-# 💸 Expense Tracker (Python - Console Based)
+# 💸 Expense Tracker 
 
 ## 📌 Overview
 
-This is a console-based Expense Tracker application developed using Python.
-It helps users manage their daily expenses by allowing them to add, view, and calculate total spending in a simple and efficient way.
+A modern desktop-based Expense Tracker built with Python and Tkinter that allows users to manage daily expenses efficiently. The application provides an easy-to-use graphical interface for recording expenses, viewing spending history, and tracking total expenditures.
 
----
+## 🚀 Overview
 
-## 🚀 Features
+Managing personal finances is an important skill. This project simplifies expense tracking by replacing manual calculations and notes with a user-friendly desktop application.
 
-* Add new expenses with name and amount 💸
-* View all recorded expenses 📋
-* Calculate total spending 💰
-* Simple and user-friendly interface
-* Menu-driven program
+The application stores expense data locally, making it lightweight, fast, and accessible without an internet connection.
 
----
+## ✨ Key Features
 
-## 🛠️ Tech Stack
+* Add expenses with name and amount
+* View all recorded expenses in a table
+* Delete unwanted expense entries
+* Real-time total expense calculation
+* Automatic data saving using CSV files
+* Persistent storage between sessions
+* Beginner-friendly and responsive interface
 
-* Python 🐍
+## 🛠️ Built With
 
----
-
-## ▶️ How to Run
-
-1. Make sure Python is installed
-2. Run the program:
-
-```id="run1"
-python app.py
-```
-
----
-
-## 📊 Functionality
-
-* Choose options from menu
-* Enter expense details
-* View list of all expenses
-* Calculate total amount spent
-
----
-
-## 🎯 Learning Outcome
-
-* Working with lists and dictionaries
-* Handling user input in Python
-* Building menu-driven programs
-* Implementing real-world logic
-
----
+* Python 3
+* Tkinter
+* CSV
+* OS Module
 
 ## 📂 Project Structure
 
-```id="struct1"
-Expensetracker.py
-README.md
+```text
+ExpenseTracker/
+│
+├── main.py
+├── expenses.csv
+└── README.md
 ```
-## 📊 Sample Output
 
-1. Add Expense  
-2. View Expenses  
-3. Total Expense  
-4. Exit  
+## ⚙️ Getting Started
 
-Enter choice: 1  
-Enter expense name: Food  
-Enter amount: 200  
-Expense added successfully!
+### Prerequisites
+
+* Python 3.x installed on your system
+
+### Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/ExpenseTracker.git
+```
+
+Move into the project directory:
+
+```bash
+cd ExpenseTracker
+```
+
+Run the application:
+
+```bash
+python main.py
+```
+
+## 📊 Functionality
+
+### Add Expense
+
+Users can enter:
+
+* Expense Name
+* Expense Amount
+
+and save the record instantly.
+
+### View Expenses
+
+All saved expenses are displayed in a structured table format.
+
+### Delete Expense
+
+Select any expense and remove it with a single click.
+
+### Expense Summary
+
+The application automatically calculates and displays the total amount spent.
+
+## 🎯 Project Objectives
+
+This project was developed to:
+
+* Practice Python programming
+* Learn GUI development with Tkinter
+* Understand file handling concepts
+* Build a real-world desktop application
+* Improve software development skills
+
+## 🔮 Future Enhancements
+
+* Expense Categories
+* Date Tracking
+* Monthly Reports
+* Expense Charts & Graphs
+* Search and Filter Options
+* Export to Excel
+* Dark Theme
+* User Accounts
+
+## 📸 Screenshots
+
+Add application screenshots here after running the project.
+
+## 🌟 Why This Project?
+
+This project demonstrates practical knowledge of:
+
+* Python Fundamentals
+* Data Storage
+* Graphical User Interfaces
+* Event Handling
+* Desktop Application Development
+
+It serves as an excellent beginner-to-intermediate Python project and can be included in portfolios, resumes, and internship applications.
+
+## 👨‍💻 Author
+
+**Yashaswi Singh**
+
 
 ---
 
